@@ -160,6 +160,20 @@ footer {
         transition: transform 0.5s ease-in;
     }
 
+    .founder-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .founder-img {
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .founder-text {
+        text-align: center;
+    }
+
     .nav-links.nav-active {
         transform: translateX(0%);
     }
