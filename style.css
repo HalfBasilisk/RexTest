@@ -147,6 +147,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+
     .nav-links {
         position: absolute;
         right: 0;
