@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #121212;
     color: #ffffff;
@@ -194,6 +198,7 @@ footer {
 
     .nav-links.nav-active {
         transform: translateX(0%);
+        overflow-y: auto; /* Enable vertical scrolling for nav content if needed */
     }
 
     .burger {
