@@ -151,6 +151,19 @@ footer {
         padding: 1rem;
     }
 
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: calc(100% - 100px); /* Adjust based on logo and burger width */
+    }
+
     .nav-links {
         position: absolute;
         right: 0;
